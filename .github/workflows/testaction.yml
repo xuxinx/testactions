@@ -22,7 +22,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get -y install libvips-dev
-          sudo go install github.com/xuxinx/go-sumtype@latest
+          sudo go install github.com/xuxinx/go-sumtype@install
 
       - name: Check exhaustiveness of sum types
         run: go-sumtype $(go list ./... | grep -v vendor)
