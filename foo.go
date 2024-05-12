@@ -1,0 +1,3 @@
+package testactions
+
+func foo() {}
