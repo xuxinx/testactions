@@ -1,3 +1,3 @@
 package testactions
 
-func foo() {}
+// func foo() {}

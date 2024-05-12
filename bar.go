@@ -1,7 +1,7 @@
 package testactions
 
-func bar() {
-	for i, _ := range []int{} {
-		_ = i
-	}
-}
+// func bar() {
+// 	for i, _ := range []int{} {
+// 		_ = i
+// 	}
+// }
